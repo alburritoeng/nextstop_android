@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+         >
+        <item android:id="@+id/calendar"
+              android:orderInCategory="1" 
+              android:title="@string/calendar" 
+              android:titleCondensed="@string/calendar" android:showAsAction="always|withText"/>
+            </menu>
+             
+              

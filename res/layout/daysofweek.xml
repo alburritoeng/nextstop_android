@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <Button
+        android:id="@+id/mondaybtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_margin="1dp"
+        android:text="@string/monday" />
+
+    <Button
+        android:id="@+id/tuesdaybtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_margin="1dp"
+        android:text="@string/tuesday" />
+
+    <Button
+        android:id="@+id/wednesdaybtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_margin="1dp"
+        android:text="@string/wednesday" />
+
+    <Button
+        android:id="@+id/thursdaybtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_margin="1dp"
+        android:text="@string/thursday" />
+
+    <Button
+        android:id="@+id/friday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_margin="1dp"
+        android:text="@string/friday" />
+
+    <Button
+        android:id="@+id/saturday"
+         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_margin="1dp"
+        android:text="@string/saturday" />
+
+    <Button
+        android:id="@+id/sunday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_margin="1dp"
+        android:text="@string/sunday" />
+
+    </LinearLayout>

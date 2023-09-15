@@ -1,0 +1,25 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/testText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/black"
+        android:text="@string/holder1"
+        android:textColor="@color/white"
+        android:textSize="18sp" 
+        android:gravity="center"/>
+     <Button
+        android:id="@+id/buttonN"
+         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_margin="1dp"
+        android:text="@string/saturday" />
+    
+              </LinearLayout>
