@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Next Stop Metrolink</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="metrolinklines" translatable="false">Next Stop</string>
+    <string name="near" translatable="false">Near</string>
+    <string name="stations" translatable="false">Stations</string>
+    <string name="alerts" translatable="false">Alerts</string>
+    <string name="lines" translatable="false">Routes</string>
+    <string name="fakeRoute" translatable="false">fakeRoute</string>
+    <string name="trains" translatable="false">Trains</string>
+    <string name="title" translatable="false">SB 352 @ 06:43:00 AM</string>
+	<string name="description" translatable="false">Headed to San Bernardino Metrolink Station from L.A. Union Station Metrolink Station scheduled to arrive in San Bernardino Metrolink Station at 7:54:00 PM</string>
+	<string name="holder1" translatable="false">**All** stop Anaheim Metrolink Station</string>
+	<string name="holderStation" translatable="false">L.A. Union Metrolink Station</string>
+	<string name="calendar" translatable="false">Pick Day</string>
+	<string name="monday" translatable="false">Monday</string>
+	<string name="tuesday" translatable="false">Tuesday</string>
+	<string name="wednesday" translatable="false">Wednesday</string>
+	<string name="thursday" translatable="false">Thursday</string>
+	<string name="friday" translatable="false">Friday</string>
+	<string name="saturday" translatable="false">Saturday</string>
+	<string name="sunday" translatable="false">Sunday</string>
+	<string name="neartrains" translatable="false">Trains Near By</string>
+	<string name="sevenmiles" translatable="false">7 miles</string>
+	<string name="fifteenmiles" translatable="false">15 miles</string>
+	<string name="alltrains" translatable="false">All Stops</string>
+	<string name="refresh" translatable="false">Refresh</string>
+</resources>

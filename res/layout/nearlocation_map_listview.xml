@@ -1,0 +1,75 @@
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RadioGroup 
+    android:id="@+id/radio_group_list_selector"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:orientation="horizontal" 
+    android:background="#80000000"
+    >
+
+    <Button
+        android:id="@+id/clickdistance"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/sevenmiles"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_weight="1"
+       	 />
+     <View
+        android:id="@+id/VerticalLine"
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#aaa" />
+
+    <Button
+        android:id="@+id/clickday"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/calendar"
+        
+        android:layout_weight="1"
+        android:button="@null"
+        />
+
+    <View
+        android:id="@+id/VerticaxlLine"
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#aaa" />
+    
+    </RadioGroup>
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".50"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".05"
+        android:background="@color/black"
+        android:text="@string/holder1"
+        android:textColor="@color/white"
+        android:textSize="18sp" 
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"    
+        android:layout_weight=".35"    
+        android:dividerHeight="@dimen/activity_horizontal_margin"
+        android:listSelector="@android:color/darker_gray"
+        android:minHeight="55dp" >
+    </ListView>
+
+</LinearLayout>

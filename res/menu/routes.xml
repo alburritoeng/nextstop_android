@@ -1,0 +1,24 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+         >
+        <item android:id="@+id/lines"
+              
+              android:icon="@drawable/trainroutes" 
+              android:orderInCategory="1" 
+              android:title="@string/metrolinklines" 
+              android:titleCondensed="@string/lines" android:showAsAction="always|withText"/>
+		<item android:id="@+id/near"
+              android:icon="@drawable/near" 
+              android:orderInCategory="2" 
+              android:title="@string/near" android:showAsAction="always|withText" android:enabled="true" android:visible="true"/>
+            
+        <item android:id="@+id/stations"
+              android:icon="@drawable/trainexample2" 
+              android:orderInCategory="3" 
+              android:title="@string/stations" android:showAsAction="always|withText"/>   
+        
+        <item android:id="@+id/alerts"
+              android:icon="@drawable/alertimg" 
+              android:orderInCategory="4" 
+              android:title="@string/alerts" android:showAsAction="always|withText" android:visible="true"/>   
+    </menu>

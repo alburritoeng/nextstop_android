@@ -1,0 +1,37 @@
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+	<!--
+    This is a comment
+    on multiple lines
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	-->
+
+ 		<TextView
+ 		    android:id="@+id/info"
+ 		    android:layout_width="match_parent"
+ 		    android:layout_height="44dp"
+ 		    android:layout_gravity="left"
+ 		    android:background="@color/black"
+ 		    android:text="@string/holder1"
+ 		    android:textColor="@color/white"
+ 		    android:textSize="18sp" />
+
+
+    <ListView
+        android:id="@+id/listView14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:dividerHeight="@dimen/activity_horizontal_margin"
+        android:listSelector="@android:color/darker_gray"
+        android:minHeight="55dp" >
+    </ListView>
+
+</LinearLayout>
